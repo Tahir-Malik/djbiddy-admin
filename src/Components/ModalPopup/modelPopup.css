@@ -1,0 +1,87 @@
+.cancel_contuie_model h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #150002;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .cancel_contuie_model p {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: #776E6B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    text-transform: initial;
+    padding: 20px 9px;
+    margin: 0;
+  }
+  .cancel_contuie_model {
+    max-width: 459px;
+    margin: 135px auto;
+  }
+  .cancel_contuie_model .modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    outline: 0;
+  }
+  .cancel_contuie_model .modal-header {
+    border-bottom: 0;
+    padding: 10px 14px;
+  }
+
+  /* New CSS */
+
+  .remodal {
+    position: relative;
+    background-color: #ffffff;
+    max-width: 900px;
+    max-height: 730px;
+    border-radius: 20px;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* overflow: hidden;
+    overflow-y: scroll; */
+  }
+  .remodal .fa-times {
+    position: absolute;
+    font-size: 20px;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    color: #495057;
+  }
+/* terms modal */
+.terms-modal h1 {
+  margin-bottom: 0px;
+}
+/* .terms-modal p.primary-para {
+  margin-bottom: 30px;
+} */
+.terms-modal h1.seconday-heading {
+  text-align: center;
+  text-transform: inherit;
+  color: #f46b45;
+  letter-spacing: unset;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 24px !important;
+}
+.remodal .fa-times{
+  display: none;
+}
+.remodal.shadow-lg {
+  max-width: 500px !important;
+}

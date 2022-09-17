@@ -1,0 +1,73 @@
+.add-faq-page{
+ 
+}
+
+.add-faq-page .tasks-div .app .ql-editor{
+    height: 10em;
+}
+
+.date-picker input{
+    height: 38px;
+}
+
+.m-loader {
+    height: 40vh;
+}
+
+.higherZIndex {
+    z-index: 99999;
+}
+
+.model-footer-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cdd {
+    color: rgb(0, 75, 145);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.date-picker .react-datepicker-wrapper{
+    width: calc(100% - 40px);
+}
+.date-picker .react-datepicker-wrapper .custom-date-picker{
+    width: 100%;
+}
+
+.custom-date-picker,
+.date-picker .react-datepicker-popper,
+.react-datepicker-popper {
+    z-index: 999;
+}
+
+.wildTribe-for .cover-photo{
+    /*height: 320px;*/
+    height: 100%;
+    max-height: 320px;
+    overflow: hidden;
+}
+
+.message-img-div {
+    display: flex;
+    max-width: 100%;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.message-img-div img{
+    border-radius: 0 !important;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 12px;
+}
+
+.msg-task-image {
+    /*width: 100%;*/
+    overflow: auto;
+    /*height: 230px;*/
+    display: flex;
+}
+

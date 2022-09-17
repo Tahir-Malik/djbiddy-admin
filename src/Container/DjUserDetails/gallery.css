@@ -1,0 +1,119 @@
+.addMedia-New-Photos.BlueBG {
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 0px 7px 16px rgba(103, 122, 140, 0.18);
+    background-color: #287396;
+    float: left;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.addMedia-New-Videos.BlueBG {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+  box-shadow: 0px 7px 16px rgba(103, 122, 140, 0.18);
+  background-color: #287396;
+  float: left;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+ 
+.addMedia-New.BlueBG .pluse-icon {
+      align-self: center;
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+  }
+  
+  ul.GalleryList-back:after {
+      content: "";
+      display: table;
+      width: 100%;
+  }
+  
+    span.pluse-icon img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
+    }
+    
+    span.pluse-icon {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  
+    .GalleryList-back li {  
+      float: left;
+      margin-right: 25px;
+      position: relative;
+    }
+    ul.GalleryList-back li {
+      margin-bottom: 30px;
+    }
+  
+  .imageWrp {
+      width: 200px;
+      /* overflow: hidden; */
+      margin: 0;
+      height: 200px;
+      background: #f1f1f1;
+  }
+
+  .imageWrp img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imageWrpVideos {
+    width: 214px;
+    /* overflow: hidden; */
+    margin: 0;
+    /* height: 100px; */
+    background: #f1f1f1;
+}
+
+.imageWrpVideos img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+  
+  span.removeImg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: -5px;
+  }
+  
+  
+  
+  
+  ul.GalleryList-back{
+    padding: 0;
+    list-style: none;
+  }

@@ -1,0 +1,31 @@
+const routeRules = {
+	landingPage: '/',
+	dashboard: '/dashboard',
+	// hashtagmanagement: '/hashtagmanagement',
+	// categorymanagement: '/categorymanagement',
+	userdetails: '/user-detail',
+	usermanagement: '/usermanagement',
+	contentmanagement: '/contentmanagement',
+	addoredituser: '/addoredituser',
+	forget: '/forgot',
+	resetpassword: '/resetpassword',
+	profile: '/profile',
+	termsandconditions: '/termsandconditions',
+	challengemanagement: '/challengemanagement',
+	userchallengemanagement: '/userchallengemanagement',
+	userchallengedetails: '/challenge-post-detail',
+	postmanagement: '/postmanagement',
+	postdetails: '/post-details',
+	eventCategory: '/eventCategory',
+	event: '/event',
+	invitedevent:'/invitedevent',
+	addoreditEvent: '/addoreditEvent',
+	addoreditEventCategory: '/addoreditEventCategory',
+	addoreditMusicCategory: '/addoreditMusicCategory',
+	djUserManagement: '/djUserManagement',
+	djUserDetails: '/djUserDetails',
+
+	musicCategory: '/musicCategory',
+};
+
+export default routeRules;
